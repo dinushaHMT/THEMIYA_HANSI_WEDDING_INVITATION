@@ -252,11 +252,11 @@ p{
 .slider{
   position:relative;
   overflow:hidden;
-  border-radius:30px;
-  border:7px solid #ffffff;
-  box-shadow:0 18px 60px rgba(0,0,0,.18);
-  aspect-ratio:4/5;
-  background:#ffffff;
+  border-radius:28px;
+  border:7px solid white;
+  box-shadow:0 18px 60px rgba(0,0,0,.2);
+  aspect-ratio:16/9;
+  background:#fff;
 }
 
 .slider img{
@@ -269,8 +269,8 @@ p{
 }
 
 .slider img.fade{
-  opacity:.15;
-  transform:scale(1.04);
+  opacity:.18;
+  transform:scale(1.03);
 }
 }
 
