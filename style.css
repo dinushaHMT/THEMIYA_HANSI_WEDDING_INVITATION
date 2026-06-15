@@ -103,7 +103,6 @@ h1 em{
   max-width:540px;
 }
 
-/* PREMIUM SMALL MENU */
 .top-buttons{
   display:flex;
   justify-content:center;
@@ -248,7 +247,7 @@ p{
   box-shadow:0 14px 45px rgba(0,0,0,.16);
 }
 
-/* FULL PHOTO VISIBLE */
+/* LANDSCAPE MEMORY GALLERY */
 .slider{
   position:relative;
   overflow:hidden;
@@ -271,7 +270,6 @@ p{
 .slider img.fade{
   opacity:.18;
   transform:scale(1.03);
-}
 }
 
 .venue-img{
@@ -380,7 +378,7 @@ textarea{min-height:95px}
   }
 
   .slider{
-    aspect-ratio:16/10;
+    aspect-ratio:16/9;
   }
 
   .venue-img{height:340px}
