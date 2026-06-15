@@ -1,0 +1,39 @@
+const WEDDING_DATA = {
+  "groom": "Themiya",
+  "bride": "Hansi",
+  "monogram": "T & H",
+  "dateISO": "2026-09-07T09:00:00+05:30",
+  "dateText": "7th September 2026",
+  "timeText": "09:00 AM",
+  "venue": "Green Valley Cottage",
+  "location": "Farm Road, Waradala",
+  "mapQuery": "Green Valley Cottage Farm Road Waradala",
+  "invitation": "Together with their families, Themiya and Hansi joyfully invite you to celebrate their wedding ceremony.",
+  "specialMessage": "We warmly invite you to join us as we begin a beautiful new chapter together, surrounded by love, blessings and unforgettable memories.",
+  "story": "What began as simple conversations slowly grew into a meaningful connection. After three years together, filled with memories, growth, and unwavering support, we decided to take the next step and unite our lives in marriage. Today, we stand not just as partners, but as husband and wife, and our wedding is the beautiful start of forever. \u2764\ufe0f",
+  "rsvpPhone": "94778853968",
+  "schedule": [
+    {
+      "time": "09:00 AM",
+      "title": "Start"
+    },
+    {
+      "time": "10:17 AM",
+      "title": "Registration"
+    },
+    {
+      "time": "11:05 AM",
+      "title": "Poruwa Ceremony"
+    },
+    {
+      "time": "04:00 PM",
+      "title": "Ceremony End"
+    }
+  ],
+  "gallery": [
+    "couple1.png",
+    "couple2.png",
+    "couple3.png",
+    "couple4.png"
+  ]
+};
