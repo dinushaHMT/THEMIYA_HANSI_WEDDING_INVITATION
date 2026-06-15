@@ -7,24 +7,35 @@
 <meta name="theme-color" content="#071611">
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header class="hero" id="home">
   <video autoplay muted loop playsinline poster="assets/venue.jpg">
     <source src="assets/download.mp4" type="video/mp4">
   </video>
+
   <div class="shade"></div>
 
   <div class="hero-content">
+
     <div class="monogram" id="monogram"></div>
-    <h1><span id="groom"></span> <em>&</em> <span id="bride"></span></h1>
-    <p class="invite" id="invite"></p>
 
     <div class="top-buttons">
       <a href="#details">Wedding Details</a>
       <a href="#story">Our Story</a>
       <a href="#rsvp">RSVP</a>
     </div>
+
+    <p class="label hero-label">Wedding Celebration</p>
+
+    <h1>
+      <span id="groom"></span>
+      <em>&</em>
+      <span id="bride"></span>
+    </h1>
+
+    <p class="invite" id="invite"></p>
 
     <div class="date-box">
       <b id="date"></b>
@@ -33,14 +44,17 @@
     </div>
 
     <div id="countdown" class="countdown"></div>
+
   </div>
 </header>
 
 <main>
+
   <section class="card split-card special">
     <div class="image-wrap">
       <img src="assets/cartoon_couple.png" alt="Couple cartoon">
     </div>
+
     <div class="copy">
       <p class="label">✨ Our Special Day</p>
       <h2>Celebrating Love, Family & Tradition.</h2>
@@ -51,6 +65,7 @@
   <section id="story" class="card story-card">
     <p class="label">❤️ Our Story</p>
     <h2>From Simple Conversations to Forever</h2>
+
     <div class="story-grid">
       <img src="assets/our-story-avatar.png" alt="Our story avatar" class="story-img">
       <p id="storyText"></p>
@@ -60,6 +75,7 @@
   <section id="memories" class="card memories">
     <p class="label">📸 Our Memories</p>
     <h2>Beautiful Moments Together</h2>
+
     <div class="slider">
       <img id="slide" src="assets/couple1.png" alt="Couple slideshow">
     </div>
@@ -68,12 +84,26 @@
   <section id="details" class="card details">
     <p class="label">📍 Wedding Details</p>
     <h2 id="venue"></h2>
+
     <img src="assets/venue.jpg" alt="Green Valley Cottage" class="venue-img">
+
     <div class="info-grid">
-      <div><span>📅</span><b id="detailDate"></b></div>
-      <div><span>🕘</span><b id="detailTime"></b></div>
-      <div><span>📍</span><b id="location"></b></div>
+      <div>
+        <span>📅</span>
+        <b id="detailDate"></b>
+      </div>
+
+      <div>
+        <span>🕘</span>
+        <b id="detailTime"></b>
+      </div>
+
+      <div>
+        <span>📍</span>
+        <b id="location"></b>
+      </div>
     </div>
+
     <a id="map" class="btn" target="_blank" rel="noopener">Open Google Maps</a>
   </section>
 
@@ -88,8 +118,10 @@
       <p class="label">💌 RSVP</p>
       <h2>Will You Celebrate With Us?</h2>
       <p>Please confirm your attendance through WhatsApp.</p>
+
       <form onsubmit="sendRSVP(event)">
         <input id="guestName" placeholder="Your Name" required>
+
         <select id="guestCount" required>
           <option value="">Number of Guests</option>
           <option>1 Guest</option>
@@ -98,7 +130,9 @@
           <option>4 Guests</option>
           <option>Family</option>
         </select>
+
         <textarea id="guestMessage" placeholder="Blessing / Message"></textarea>
+
         <button type="submit">Send RSVP by WhatsApp</button>
       </form>
     </div>
@@ -109,9 +143,11 @@
     <h2>Themiya & Hansi</h2>
     <p>Your presence and blessings will make our special day unforgettable.</p>
   </section>
+
 </main>
 
 <script src="config.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>
