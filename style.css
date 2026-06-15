@@ -355,7 +355,7 @@ textarea{min-height:95px}
   padding-bottom:55px;
 }
 
-@media(min-width:760px){
+@media(min-width:1200px){
   .card,.final{
     width:min(88%,920px);
     padding:42px;
