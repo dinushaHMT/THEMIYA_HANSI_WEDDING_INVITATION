@@ -381,7 +381,15 @@ textarea{min-height:95px}
     aspect-ratio:16/9;
   }
 
-  .venue-img{height:340px}
+ .venue-img{
+  width:100%;
+  max-width:500px;
+  height:180px;
+  object-fit:cover;
+  border-radius:24px;
+  margin:10px auto 16px;
+  display:block;
+}
 
   .info-grid{
     grid-template-columns:repeat(3,1fr);
